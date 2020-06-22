@@ -95,19 +95,3 @@ app.listen(3000, ()=>{
 // app.com         -----------     root route ''
 // app.com/help    -----------     help route '/help'
 // app.com/about   -----------     root route '/about'
-
-// // after adding express.static to a dir name .. this app.get('') will not work as it will refer to the public folder mentioned 
-// app.get ('', (req, res) => {
-//     res.send('<h1>Hello Express</h1>')
-// })
-
-// app.get('/help', (req, res)=>{
-//     res.send({
-//         name : 'Varid',
-//         age  : 23 
-//     })
-// })
-
-// app.get('/about', (req, res)=>{
-//     res.send('<h2>About Page</h2>')
-// })
